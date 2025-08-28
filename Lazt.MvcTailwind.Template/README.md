@@ -19,21 +19,15 @@ Optional but recommended:
 
 ---
 
-## Installing the Template Locally
+## Installing the Template
 
-1. Navigate to the folder containing the `.nupkg` file:
+Install the template directly from NuGet:
 
 ```bash
-cd path/to/Lazt.MvcTailwind.Template/nupkgs
+dotnet new install Lazt.MvcTailwind.Template::1.0.0
 ````
 
-2. Install the template locally:
-
-```bash
-dotnet new install ./Lazt.MvcTailwind.Template.1.0.0.nupkg
-```
-
-3. Verify the template is installed:
+Verify installation:
 
 ```bash
 dotnet new list
@@ -41,15 +35,17 @@ dotnet new list
 
 You should see:
 
-```
-MVC with Tailwind (mvclazt)
+```plaintext
+Template Name       Short Name    Language    Tags
+----------------    ------------  ----------  ----------------
+MVC con Tailwind    mvclazt       [C#]        Web/MVC/Tailwind
 ```
 
 ---
 
 ## Creating a New Project
 
-1. Create a new project using the template:
+1. Create a project from the template:
 
 ```bash
 dotnet new mvclazt -n MyApp
@@ -66,13 +62,13 @@ npm install
 
 ## Running the Project
 
-1. Start the ASP.NET application:
+Run the application with hot reload:
 
 ```bash
-dotnet run
+dotnet watch run
 ```
 
-2. Open your browser and navigate to, port may vary:
+Open your browser at (port may vary):
 
 ```
 https://localhost:5001
@@ -83,7 +79,7 @@ https://localhost:5001
 ## Notes
 
 - The template includes a ready-to-use MVC structure (`Controllers/`, `Views/`, `wwwroot/`) with TailwindCSS configured.
-- Any updates to TailwindCSS or npm packages should be done in `package.json` and rebuilt with `npm run css:build`.
+- TailwindCSS builds automatically when running `dotnet watch run`.
 - If you notice that some styles are not being applied, try rebuilding the project or clearing your browser cache.
 
 ---
