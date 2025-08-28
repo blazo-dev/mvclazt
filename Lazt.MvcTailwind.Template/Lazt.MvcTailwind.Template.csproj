@@ -5,7 +5,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <PackageType>Template</PackageType>
         <PackageId>Lazt.MvcTailwind.Template</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Bryan Lazo</Authors>
         <Description>ASP.NET MVC template with Tailwind</Description>
         <PackageOutputPath>./nupkgs</PackageOutputPath>
