@@ -24,8 +24,8 @@ Optional but recommended:
 Install the template directly from NuGet:
 
 ```bash
-dotnet new install Lazt.MvcTailwind.Template::1.0.0
-````
+dotnet new install Lazt.MvcTailwind.Template::1.0.1
+```
 
 Verify installation:
 
