@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Bryan Lazo",
+    "classifications": [
+        "Web",
+        "MVC",
+        "Tailwind"
+    ],
+    "identity": "Lazt.MvcTailwind.Template",
+    "name": "MVC con Tailwind",
+    "shortName": "mvclazt",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "MvcTailwindTemplate",
+    "preferNameDirectory": true
+}

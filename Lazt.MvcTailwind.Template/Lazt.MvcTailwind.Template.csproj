@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <!-- NuGet metadata -->
+        <TargetFramework>net8.0</TargetFramework>
+        <PackageType>Template</PackageType>
+        <PackageId>Lazt.MvcTailwind.Template</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Bryan Lazo</Authors>
+        <Description>ASP.NET MVC template with Tailwind</Description>
+        <PackageOutputPath>./nupkgs</PackageOutputPath>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <BuildProject>false</BuildProject>
+        <NoWarn>NU5128</NoWarn>
+
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <!-- Include your entire web project as template content -->
+    <ItemGroup>
+        <Content Include="../MvcTailwindTemplate/**/*"
+            Exclude="../MvcTailwindTemplate/bin/**;../MvcTailwindTemplate/obj/**;../MvcTailwindTemplate/node_modules/**"
+            Pack="true" PackagePath="content/" />
+    </ItemGroup>
+
+    <!-- Include license and readme files in the package root -->
+    <ItemGroup>
+        <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>

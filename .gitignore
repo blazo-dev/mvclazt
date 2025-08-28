@@ -1,0 +1,48 @@
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.suo
+*.nupkg
+*.vs/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Template project output
+Lazt.MvcTailwind.Template/bin/
+Lazt.MvcTailwind.Template/obj/
+MvcTailwindTemplate/bin/
+MvcTailwindTemplate/obj/
+
+# Optional: ignore build artifacts for CSS
+MvcTailwindTemplate/wwwroot/css/output.css
+MvcTailwindTemplate/wwwroot/css/*.map
+
+# Keep source files, config, license, readme, project files
+!.template.config/
+!LICENSE.txt
+!README.md
+!*.csproj
+!*.sln
+!Program.cs
+!Controllers/
+!Models/
+!Views/
+!wwwroot/
+!Properties/
+!appsettings*.json
+!package.json
