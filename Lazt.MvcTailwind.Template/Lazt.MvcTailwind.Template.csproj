@@ -15,6 +15,13 @@
 
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageReleaseNotes>Initial release of Lazt.MvcTailwind.Template with MVC structure and
+            TailwindCSS</PackageReleaseNotes>
+        <PackageProjectUrl>https://github.com/blazo-dev/mvclazt</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/blazo-dev/mvclazt.git</RepositoryUrl>
+        <Copyright>Copyright (c) 2025 Bryan Lazo</Copyright>
+        <PackageTags>mvc, tailwind, dotnet, aspnet, template</PackageTags>
     </PropertyGroup>
 
     <!-- Include your entire web project as template content -->
