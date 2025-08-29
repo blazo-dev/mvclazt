@@ -4,10 +4,11 @@
     "tailwindcss": "^4.1.12"
   },
   "name": "mvctailwindtemplate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
-    "css:build": "npx @tailwindcss/cli -i ./wwwroot/lib/tailwindcss/input.css -o ./wwwroot/css/output.css --minify"
+    "css:build": "npx @tailwindcss/cli -i ./wwwroot/lib/tailwindcss/input.css -o ./wwwroot/css/output.css --minify",
+    "css:watch": "npx @tailwindcss/cli -i ./wwwroot/lib/tailwindcss/input.css -o ./wwwroot/css/output.css --minify --watch"
   },
   "keywords": [],
   "author": "",

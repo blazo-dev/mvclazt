@@ -24,7 +24,7 @@ Optional but recommended:
 Install the template directly from NuGet:
 
 ```bash
-dotnet new install Lazt.MvcTailwind.Template::1.0.1
+dotnet new install Lazt.MvcTailwind.Template::1.0.2
 ```
 
 Verify installation:
@@ -52,12 +52,6 @@ dotnet new mvclazt -n MyApp
 cd MyApp
 ```
 
-2. Install Node.js dependencies:
-
-```bash
-npm install
-```
-
 ---
 
 ## Running the Project
@@ -65,14 +59,27 @@ npm install
 Run the application with hot reload:
 
 ```bash
+# This command will install the required Node.js packages with npm
 dotnet watch run
 ```
 
 Open your browser at (port may vary):
 
-```
+```plaintext
 https://localhost:5001
 ```
+
+---
+
+## Activate TailwindCSS Watch Mode
+
+To enable the TailwindCSS watch mode, open a new terminal and run:
+
+```bash
+npm run css:watch
+```
+
+This command will watch for changes in your CSS files and automatically rebuild the TailwindCSS styles.
 
 ---
 
